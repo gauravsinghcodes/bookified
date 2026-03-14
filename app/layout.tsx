@@ -20,26 +20,26 @@ const monaSans = Mona_Sans({
 })
 
 export const metadata: Metadata = {
-    title: "Bookified",
-    description: "Transform your books into interactive AI conversations. Upload PDFs, and chat with your books using voice.",
+  title: "Bookified",
+  description: "Transform your books into interactive AI conversations. Upload PDFs, and chat with your books using voice.",
 };
 
 export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
-    children: React.ReactNode;
+  children,
+}: Readonly<{
+  children: React.ReactNode;
 }>) {
-    return (
-        <ClerkProvider>
-            <html lang="en">
-            <body
-                className={`${ibmPlexSerif.variable} ${monaSans.variable} relative font-sans antialiased`}
-            >
+  return (
+    <ClerkProvider>
+        <html lang="en">
+          <body
+            className={`${ibmPlexSerif.variable} ${monaSans.variable} relative font-sans antialiased`}
+          >
             <Navbar />
             {children}
             <Toaster />
-            </body>
-            </html>
-        </ClerkProvider>
-    );
+          </body>
+        </html>
+    </ClerkProvider>
+  );
 }

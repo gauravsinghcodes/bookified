@@ -1,0 +1,30 @@
+.next/dev/types/validator.ts(89,39): error TS2307: Cannot find module '../../../app/page.js' or its corresponding type declarations.
+.next/types/validator.ts(42,39): error TS2307: Cannot find module '../../app/page.js' or its corresponding type declarations.
+app/(root)/page.tsx(23,29): error TS7006: Parameter 'book' implicitly has an 'any' type.
+app/api/upload/route.ts(2,46): error TS2307: Cannot find module '@vercel/blob/client' or its corresponding type declarations.
+app/api/upload/route.ts(28,41): error TS7031: Binding element 'blob' implicitly has an 'any' type.
+app/api/upload/route.ts(28,47): error TS7031: Binding element 'tokenPayload' implicitly has an 'any' type.
+components/FileUploader.tsx(4,44): error TS2307: Cannot find module 'react-hook-form' or its corresponding type declarations.
+components/ui/form.tsx(14,8): error TS2307: Cannot find module 'react-hook-form' or its corresponding type declarations.
+components/ui/sonner.tsx(10,26): error TS2307: Cannot find module 'next-themes' or its corresponding type declarations.
+components/ui/sonner.tsx(11,54): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/UploadForm.tsx(4,25): error TS2307: Cannot find module 'react-hook-form' or its corresponding type declarations.
+components/UploadForm.tsx(5,29): error TS2307: Cannot find module '@hookform/resolvers/zod' or its corresponding type declarations.
+components/UploadForm.tsx(17,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/UploadForm.tsx(21,22): error TS2307: Cannot find module '@vercel/blob/client' or its corresponding type declarations.
+components/UploadForm.tsx(182,40): error TS7031: Binding element 'field' implicitly has an 'any' type.
+components/UploadForm.tsx(202,40): error TS7031: Binding element 'field' implicitly has an 'any' type.
+components/UploadForm.tsx(222,40): error TS7031: Binding element 'field' implicitly has an 'any' type.
+components/VapiControls.tsx(8,21): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+hooks/useSubscription.ts(23,17): error TS2353: Object literal may only specify known properties, and 'product' does not exist in type 'CheckAuthorizationParamsWithCustomPermissions'.
+hooks/useSubscription.ts(25,24): error TS2353: Object literal may only specify known properties, and 'product' does not exist in type 'CheckAuthorizationParamsWithCustomPermissions'.
+hooks/useVapi.ts(6,18): error TS2307: Cannot find module '@vapi-ai/web' or its corresponding type declarations.
+lib/actions/book.actions.ts(4,33): error TS2307: Cannot find module '@/database/mongoose' or its corresponding type declarations.
+lib/actions/book.actions.ts(6,18): error TS2307: Cannot find module '@/database/models/book.model' or its corresponding type declarations.
+lib/actions/book.actions.ts(7,25): error TS2307: Cannot find module '@/database/models/book-segment.model' or its corresponding type declarations.
+lib/actions/book.actions.ts(8,22): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+lib/actions/session.actions.ts(4,33): error TS2307: Cannot find module '@/database/mongoose' or its corresponding type declarations.
+lib/actions/session.actions.ts(5,26): error TS2307: Cannot find module '@/database/models/voice-session.model' or its corresponding type declarations.
+lib/utils.ts(95,35): error TS2307: Cannot find module 'pdfjs-dist' or its corresponding type declarations.
+lib/utils.ts(139,20): error TS7006: Parameter 'item' implicitly has an 'any' type.
+lib/utils.ts(140,17): error TS7006: Parameter 'item' implicitly has an 'any' type.
