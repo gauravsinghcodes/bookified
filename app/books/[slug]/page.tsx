@@ -12,11 +12,8 @@ export default async function BookDetailsPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const { userId } = await auth();
-
-  if (!userId) {
-    redirect("/sign-in");
-  }
+  /* Removed mandatory auth check to allow public access to book details. 
+     Interactive features are protected within the VapiControls component. */
 
   const { slug } = await params;
   const result = await getBookBySlug(slug);
