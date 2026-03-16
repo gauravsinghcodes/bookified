@@ -249,13 +249,9 @@ MONGODB_URI=
 
 # VAPI
 NEXT_PUBLIC_VAPI_API_KEY=
-VAPI_SERVER_SECRET=
+NEXT_PUBLIC_ASSISTANT_ID=
 
-# Google Gemini API for embeddings
-GOOGLE_GEMINI_API_KEY=
 
-# ELEVENLABS
-ELEVENLABS_API_KEY=
 ```
 
 Replace the placeholder values with your real credentials. You can get these by signing up at: [**Clerk**](https://clerk.com), [**Vercel**](https://vercel.com), [**MongoDB**](https://www.mongodb.com), [**Vapi**](https://vapi.ai), [**Google AI Studio**](https://aistudio.google.com), [**ElevenLabs**](https://elevenlabs.io).
